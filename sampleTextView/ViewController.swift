@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         //フォントをAmericanTypewriter に変更
         myTextView.font = UIFont(name: "AmericanTypewriter",size: 20)
         //文字寄せを中央寄せに変更
-        myTextView.textAlignment = NSTextAlignment.center
+        myTextView.textAlignment = .center
         
         //TextViewを常に中央寄せ
         myTextView.center = self.view.center
